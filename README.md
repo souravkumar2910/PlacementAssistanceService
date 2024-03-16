@@ -4,7 +4,7 @@ This will help in resume building, apptitude practice, Subjective practice, and 
 
 ## Technology Used:
 ### Frontend: React.js
-### Backend: Spring Boot,Spring Data JPA , spring security, microservice
+### Backend: Java, Spring Boot,Spring Data JPA , spring security, microservice
 ### Database: [MySQL]
 ### Tools : Eclipse IDE , VS Code Editor, MySQL workbench 
 
