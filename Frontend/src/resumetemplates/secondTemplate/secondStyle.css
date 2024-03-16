@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    /* background: linear-gradient(to right ,#8772ff ,#cbc2ff); */
+    position: relative;
+}
+.resume{
+    width: 800px;
+    /* height: 1400px; */
+    margin: 10px auto;
+    display: flex;
+    border: 2px solid black;
+    background: #ffffff;
+}
+.resume-left{
+    width: 250px;
+    background: #555457;
+    padding: 0px 10px;
+}
+.list-wrap a{
+    width: calc(100% - 40px);
+    color: #ffffff;
+    margin-left: 8px;
+    word-break: break-word;
+}
+.list-wrap a:hover{
+    color: rgb(206, 203, 203);
+}
+.resume-left .profile{
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+    text-align: center;
+}
+.resume-left .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.resume-left .list-wrap::last-child{
+    margin-bottom: 0px;
+}
+
+.resume-left .title{
+
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(165, 161, 161);
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+.resume-left .title .name{
+    position: relative;
+}
+.resume-left .title .name::before{
+    content: '';
+    width: 50px;
+    height: 2px;
+    top: -1px;
+    left: 70px;
+    right: 0;
+    bottom: 0;
+    /* background: #ffffff; */
+    background-image: linear-gradient(to right ,#6db9ef,#7ce08a);
+    /* margin-top: -10px; */
+    /* z-index: -10; */
+    position: absolute;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 90px;
+}
+.resume-left .title .name::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    top: 29px;
+    right: 70px;
+    bottom: 0;
+    /* background: #ffffff; */
+    background-image: linear-gradient(to right ,#6db9ef,#7ce08a);
+    /* margin-top: -10px; */
+    /* z-index: -10; */
+    position: absolute;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 90px;
+}
+.resume-left .title::before{
+    content: '';
+    width: 60px;
+    top: 25px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+}
+.resume-left .title::after{
+    content: '';
+    width: 60px;
+    top: 25px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+}
+.skill .list-wrap{
+    margin-bottom: 20px;
+    display: flex;
+    /* align-items: center; */
+}
+.contact .list-wrap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.skill .list-wrap .info,
+.contact .list-wrap .info{
+    color: #ffffff;
+}
+
+.pb{
+    padding-bottom: 40px;
+}
+
+.contact .list-wrap .icon{
+    font-size: 20px;
+    color: rgb(35, 35, 116);
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.skill .list-wrap .info,
+.contact .list-wrap .info{
+    width: calc(100% - 40px);
+    word-break: break-word;
+    padding-left: 5px;
+}
+
+.skill .list-wrap .icon{
+    font-size: 20px;
+    color: rgb(35, 35, 116);
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 50%;
+}
+
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hobbies .list-wrap .icon{
+    font-size: 30px;
+}
+.hobbies .list-wrap .info{
+    font-size: 16px;
+    font-weight: 500;
+}
+.hobbies .list-wrap{
+    width: 70px;
+    height: 70px;
+    background: #ffffff;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+ 
+
+
+
+.resume-right{
+    width: calc(100% - 250px);
+}
+.resume-right .header{
+    background: #555457;
+    padding: 15px;
+}
+.resume-right .name-role .name{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: rgb(190, 186, 186);
+    text-transform: uppercase;
+}
+.resume-right .name-role .role{
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    color: rgb(175, 174, 174);
+    
+}
+.resume-right .header .about{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(165, 161, 161);
+}
+.resume-right .header .about-obj{
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.resume-right .header .about-obj p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.resume-right .header .about-obj h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(165, 161, 161);
+    text-align: right;
+    position: relative;
+    margin-bottom: 15px;
+}
+.resume-right .header .about-obj h5::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background: #9153c9;
+    margin: 0 auto;
+    right: 0;
+    top: 25px;
+}
+
+.resume-right .inner-right{
+    padding: 30px;
+    color: #292b2f;
+}
+
+/* Education detailsm-------------------------------- */
+
+
+.education .title,
+.work-exp .title,
+.project .title,
+.technical-skill .title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(165, 161, 161);
+    text-align: right;
+    position: relative;
+    margin-bottom: 30px;
+}
+.education .title::before,
+.work-exp .title::before,
+.project .title::before,
+.technical-skill .title::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    background: #9153c9;
+    margin: 0 auto;
+    right: 0;
+    top: 25px;
+}
+
+.inner-right .list-wrap,
+.inner-right .list-wraps{
+    display: flex;
+    margin-bottom: 15px;
+}
+.inner-right .list-wrap .date{
+    width: 125px;
+    color: #9153c9;
+}
+.inner-right .list-wrap .info,
+.inner-right .list-wraps .info{
+    width: calc(100% - 125px);
+    position: relative;
+}
+
+
+ .inner-right .technical-skill .list-wraps .info-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #9153c9;
+}
+
+.inner-right .technical-skill .list-wraps .info-clg{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.inner-right .technical-skill .list-wraps{
+    margin-top: 20px;
+}
+
+.inner-right .list-wrap .info-title,
+.inner-right .list-wraps .info-title{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #9153c9;
+}
+.inner-right .list-wraps .info-title{
+    position: absolute;
+    top: -5px;
+    margin-left: 15px;
+}
+.inner-right .list-wrap .info-from{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.inner-right .list-wraps .info-clg{
+    margin-top: 37px;
+    margin-left: 15px;
+}
+
+.inner-right .list-wrap .info::before,
+.inner-right .list-wraps .info::before{
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #9153c9;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: -15px;
+}
+.inner-right .list-wraps .info::before{
+    position: absolute;
+    margin-left: 15px;
+}
+.inner-right .list-wrap .info::after{
+    content: '';
+    width: 2px;
+    height: 91%;
+    background: #9153c9;
+    position: absolute;
+    top: 3px;
+    left: -12px;
+}
+
+
+/* Work Experience details -------------------------------- */
+
+/* .btn{
+    background: linear-gradient(to right,#00ffdd,#a2f9ff);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+} */
+
+
