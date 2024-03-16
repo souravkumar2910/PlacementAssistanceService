@@ -3,8 +3,8 @@ This project mainly design for student who is in college or fresher.
 This will help in resume building, apptitude practice, Subjective practice, and coding practice.
 
 ## Technology Used:
-### Frontend: React.js
-### Backend: Spring Boot,Spring Data JPA , spring security, microservice
+### Frontend: ##### React.js
+### Backend: ###### Spring Boot,Spring Data JPA , spring security, microservice
 ### Database: [MySQL]
 ### Tools : Eclipse IDE , VS Code Editor, MySQL workbench 
 
